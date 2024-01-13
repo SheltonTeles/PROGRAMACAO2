@@ -11,7 +11,7 @@ public class Main {
 		System.out.println("Insira o nome do aluno");
 		a1.setNome(scanner.next());
 		
-		System.out.println("Insira a idade de Shelton");
+		System.out.println("Insira a idade de "+a1.getNome());
 		a1.setIdade(scanner.nextShort());
 		
 		System.out.println("Insira os as notas 1 e 2 respectivamente do aluno "+a1.getNome());
