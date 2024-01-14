@@ -26,6 +26,6 @@ public class Circulo {
 
 	public double calcularPerimetro(double raio) {
 
-		return 0;
+		return 0.0;
 	}
 }
