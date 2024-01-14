@@ -19,13 +19,24 @@ public class Circulo {
 	public Circulo() {
 	}
 
-	public double calcularArea(double raio) {
+	public double calcularArea() {
 
-		return 0;
+		double area = 0;
+
+		return area = 2 * Math.PI * Math.pow(this.raio, 2);
 	}
 
-	public double calcularPerimetro(double raio) {
+	public double calcularPerimetro() {
 
-		return 0.0;
+		double perimetro = 0;
+
+		return perimetro = 2 * Math.PI * this.raio;
 	}
+
+	@Override
+	public String toString() {
+		return "Circulo de raio=" + raio + ", tem área =" + calcularArea() + ", e perímetro=" + calcularPerimetro()
+				+ "]";
+	}
+
 }
