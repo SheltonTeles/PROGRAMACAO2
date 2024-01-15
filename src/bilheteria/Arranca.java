@@ -11,7 +11,7 @@ public class Arranca {
 		Bilhete b = new Bilhete(valorNormal);
 		Normal n = new Normal(valorNormal);
 		VIP v = new VIP(valorNormal, valorAdicional);
-		CamaroteInferior cI = new CamaroteInferior(valorAdicional, locationNormal);
+		CamaroteInferior cI = new CamaroteInferior(valorAdicional, valorAdicional, locationNormal);
 		CamaroteSuperior cS = new CamaroteSuperior(valorNormal, valorAdicional, locationVIP);
 
 //		b.imprimeValor();

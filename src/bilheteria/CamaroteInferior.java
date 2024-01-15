@@ -1,6 +1,6 @@
 package bilheteria;
 
-public class CamaroteInferior extends Normal {
+public class CamaroteInferior extends VIP {
 	private String location;
 
 	// getters and setters, nestes exercícios não terão utilidade, é só para criar
@@ -14,8 +14,8 @@ public class CamaroteInferior extends Normal {
 	}
 
 	// construtores
-	public CamaroteInferior(double valorMeticais, String location) {
-		super(valorMeticais);
+	public CamaroteInferior(double valorMeticais, double valorAdicional, String location) {
+		super(valorMeticais,valorAdicional);
 		this.location = location;
 		// TODO Auto-generated constructor stub
 	}
